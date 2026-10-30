@@ -1,0 +1,41 @@
+{
+  "name": "payproof",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "dev:frontend": "npm --prefix frontend run dev",
+    "server": "node backend/server.cjs",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview",
+    "test:onchain": "node backend/scripts/testOnChainPayments.cjs",
+    "test:features": "node backend/scripts/testAllFeaturesTwice.cjs",
+    "test:e2e": "node backend/scripts/testFrontendE2E.cjs"
+  },
+  "dependencies": {
+    "@types/cors": "^2.8.19",
+    "@types/express": "^5.0.6",
+    "canvas-confetti": "^1.9.3",
+    "cors": "^2.8.6",
+    "ethers": "^6.13.4",
+    "express": "^5.3.0",
+    "framer-motion": "^11.11.17",
+    "lucide-react": "^0.460.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@types/canvas-confetti": "^1.9.0",
+    "@types/node": "^22.9.0",
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "@vitejs/plugin-react": "^4.3.3",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.49",
+    "solc": "^0.8.20",
+    "tailwindcss": "^3.4.15",
+    "typescript": "^5.6.3",
+    "vite": "^5.4.11"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "testnet": {
+    "address": "0x952e9740D84Aeed6f70bB9F5a365fa9Be68B13b6",
+    "deployTx": "0x1182a4888404cda36527ca3d9c22c9fed11a94ac760853540b0b7f43682f4137",
+    "deployedAt": "2026-10-30T05:33:21.812Z",
+    "deployer": "0x975c2809cc84a9c539AcACaAc643977627EeE7e7",
+    "chainId": 91562037
+  },
+  "mainnet": {
+    "address": "",
+    "chainId": 4646
+  }
+}
